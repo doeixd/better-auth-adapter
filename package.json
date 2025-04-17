@@ -1,0 +1,45 @@
+{
+  "name": "@better-auth-kit/triplit",
+  "version": "0.1.0",
+  "description": "Triplit database adapter for Better-Auth",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "better-auth",
+    "triplit",
+    "auth",
+    "authentication",
+    "database",
+    "adapter"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/better-auth-triplit"
+  },
+  "dependencies": {
+    "better-auth": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@triplit/client": "^1.0.0"
+  },
+  "devDependencies": {
+    "@triplit/client": "^1.0.0",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ]
+}
