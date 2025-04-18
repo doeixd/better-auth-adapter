@@ -2,7 +2,7 @@
 import type { BetterAuthOptions } from "better-auth";
 import type { TriplitClient } from "@triplit/client";
 import type { TriplitAdapterOptions } from "./types";
-import type { WhereCondition } from "./handler/types";
+import type { WhereCondition } from "./types";
 
 interface TransformContext {
   config: TriplitAdapterOptions;
