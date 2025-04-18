@@ -1,5 +1,5 @@
 // queryBuilder.ts
-import { type TriplitQueryBuilder } from "./handler/types";
+import { type TriplitQueryBuilder } from "./types";
 // Import BOTH 'and' and 'or' from the triplit client
 import { and, or } from "@triplit/client";
 
