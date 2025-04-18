@@ -3,7 +3,7 @@ import type { Adapter, AdapterInstance, BetterAuthOptions } from "better-auth";
 import type { TriplitClient } from "@triplit/client";
 import type { TriplitAdapterOptions } from "./types";
 import { createTransform } from "./transform";
-import type { WhereCondition } from "./handler/types"; // Keep this import
+import type { WhereCondition } from "./types"; // Keep this import
 
 export type TriplitAdapter = (
   triplitClient: TriplitClient,
